@@ -7,7 +7,7 @@
             echo( "Wrong number of arguments! \n start.php xmlfilename \n xmlfilename - name of xml file.\n");
         }
         else {
-            $parser = new xmlparser($argv[1]);
+            $parser = new Xmlparser($argv[1]);
             $data = $parser->getXML();
             $nodes = $parser->loadData($data);
             menu($nodes);

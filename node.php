@@ -19,9 +19,9 @@ class Node {
 
     /**
      * Constructor of Node class.
-     */
-     #  @param getXML() of xmlparser class $array
-     /* @return void
+     *
+     * @param getXML() of xmlparser class $array
+     * @return void
      */
 
     function __construct($array) {
