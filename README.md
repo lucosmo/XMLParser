@@ -11,6 +11,6 @@ xmlfilename is any xml file created by applying rules presented in that example 
 
 ## Demo
 
-src folder contains books.xml file
+src folder contains books.xml file, use it for quick test:
 
 php start.php books.xml
