@@ -18,6 +18,10 @@
         echo "argc and argv disabled\n";
     }
 
+    /**
+    * showNextNode
+    *
+    */
     function showNextNode($nodes, $i) {
         system('clear');
         echo "PHP APP reads books data from xml file, import to array of objects (Node)\n";
@@ -27,6 +31,7 @@
         echo "\n=========================================================================\n\n";     
     }
     
+
     function menu($nodes) {
         $i = 0;
         while(($line = readline("\nCommand (h) for help, (e) for exit, ENTER for next Book: ")) != "e"){
